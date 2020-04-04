@@ -1,0 +1,80 @@
+body {
+  background: rgb(250, 242, 243);
+}
+
+.section-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.section-one-div {
+  width: 10%;
+}
+.header {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 7%;
+  margin-left: 3%;
+  line-height: 45px;
+}
+.paragraph {
+  font-size: 14px;
+  margin-left: 3%;
+  margin-top: 4%;
+}
+.button {
+  padding: 10px;
+  background-color: rgb(255, 136, 0);
+  width: 200px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 3%;
+  margin-top: 4%;
+}
+
+.section2 {
+  font-size: 15px;
+  margin-top: 5%;
+  width: 60%;
+  margin-left: 18%;
+  line-height: 25px;
+  color: grey;
+}
+
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.section3-header {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 5%;
+  font-weight: bold;
+}
+.section3-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 10%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 460px) {
+  .section1-image {
+    width: 100%;
+    margin-top: 10%;
+  }
+  .section2 {
+    width: 100%;
+    margin-left: 0;
+    padding: 4%;
+  }
+  .section3-div {
+    display: flex;
+    flex-direction: column;
+  }
+}

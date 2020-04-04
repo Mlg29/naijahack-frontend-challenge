@@ -1,0 +1,35 @@
+
+
+.how-it-work {
+    margin-top: 2%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    padding: 15px;
+    border-radius: 5px;
+}
+.hiw-header {
+    font-size: 14px;
+}
+.hiw-image {
+    margin-top: 7%;
+    height: 150px;
+}
+
+.hiw-paragraph {
+    font-size: 12px;
+    line-height: 24px;
+    color: grey;
+    margin-top: 3%;
+    width: 80%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 460px) {
+    .how-it-work {
+        width: 90%;
+        margin: 2% auto;
+    }
+  }
+  
